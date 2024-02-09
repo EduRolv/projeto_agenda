@@ -60,17 +60,8 @@ p{
     box-shadow: 10px;
 }
 
-.deletar{
-    background-color: #DB4B46;
-    border-radius: 8px;
-    font-size: 18px;
-    font-weight: bold;
-    cursor:pointer;
-    padding: 5px;
-    border: 2.5px solid black;
-}
 
-.adicionar{
+#adicionar{
     background-color: #75DB51;
     border-radius: 8px;
     font-size: 18px;
@@ -87,7 +78,9 @@ form input {
     border-radius: 8px;
     border: 2.5px solid black;
     padding: 5px;
+    width: 300px;
 }
+
 
 form {
     display: flex;
