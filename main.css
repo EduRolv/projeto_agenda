@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"]::-moz-inner-spin-button {
+    -moz-appearance: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    pointer-events: none;
+}
+
+body{
+    background-color:brown;
+    padding-top: 100px;
+    text-shadow:rgba(0, 0, 0, 0.323);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header img{
+    height: 70px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 55px;
+    font-weight: bolder;
+    color: black;
+}
+
+p{
+    padding-bottom: 40px;
+    padding-left: 20px;
+    color: black;
+    max-width: 900px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#e2a88bd7 ;
+    padding: 35px 35px 100px 35px;
+    align-content: center;
+    border-radius: 8px;
+    box-shadow: 10px;
+}
+
+.deletar{
+    background-color: #DB4B46;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    padding: 5px;
+    border: 2.5px solid black;
+}
+
+.adicionar{
+    background-color: #75DB51;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    padding: 5px;
+    border: 2.5px solid black;
+}
+
+form input {
+    font-size: 18px;
+    background-color:#e2bba7;
+    color: black;
+    border-radius: 8px;
+    border: 2.5px solid black;
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+
+table {
+    border-radius: 5px;
+    max-width: 900px;
+    width: 100%;
+    background-color:#e2bba7;
+    padding: 3px;
+    box-shadow: rgba(0, 0, 0, 0.323);
+}
+
+table th {
+    padding: 9px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px double black;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding:4px 0px ;
+    border: 1px double black;
+}
+
+::placeholder {
+    color: black;
+}
+
